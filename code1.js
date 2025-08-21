@@ -14,7 +14,7 @@ gdjs.Pagina_9501Code.GDreloadObjects1= [];
 gdjs.Pagina_9501Code.GDreloadObjects2= [];
 
 
-gdjs.Pagina_9501Code.asyncCallback12892588 = function (runtimeScene, asyncObjectsList) {
+gdjs.Pagina_9501Code.asyncCallback12664524 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Pagina_9501Code.localVariables);
 {gdjs.evtTools.sound.stopSoundOnChannel(runtimeScene, 2);
 }{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Pagina_02", false);
@@ -29,14 +29,14 @@ gdjs.Pagina_9501Code.eventsList0 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Pagina_9501Code.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Pagina_9501Code.asyncCallback12892588(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Pagina_9501Code.asyncCallback12664524(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.Pagina_9501Code.asyncCallback12894284 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Pagina_9501Code.asyncCallback12666196 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Pagina_9501Code.localVariables);
 {gdjs.evtTools.sound.stopSoundOnChannel(runtimeScene, 2);
 }{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Intro", false);
@@ -51,7 +51,7 @@ gdjs.Pagina_9501Code.eventsList1 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Pagina_9501Code.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Pagina_9501Code.asyncCallback12894284(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Pagina_9501Code.asyncCallback12666196(runtimeScene, asyncObjectsList)));
 }
 }
 
